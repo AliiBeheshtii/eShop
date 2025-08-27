@@ -1,9 +1,6 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -58,15 +55,19 @@ a {
   color: #7a85c1;
 }
 
-.header_wrapper .account_btn{
+.header_wrapper .account_btn {
   background-color: #1a2a80;
   color: #fff;
-  padding: 0.6% 1.1%;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 500;
   border-radius: 20px;
   transition: 0.3s;
+  border: none;
 }
 
-.header_wrapper .account_btn:hover{
-  background-color: #3B38A0;
+.header_wrapper .account_btn:hover {
+  background-color: #3b38a0;
   transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
