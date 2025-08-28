@@ -209,11 +209,12 @@ a {
   border: 1px solid #1a2a80;
   padding: 6px 15px;
   border-radius: 20px;
-  transition: 0.3s;
-  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .product_button:hover{
   background-color: #fff;
   color: #1a2a80;
+  box-shadow: 1px 1px 3px #1a2980;
+  transform: translateY(-3px);
 }
