@@ -273,11 +273,14 @@ footer {
 
 .footer_part .list_wrapper ul li {
   list-style: none;
-  cursor: pointer;
+}
+
+.footer_part .list_wrapper ul li a {
+  color: #fff;
   transition: 0.3s;
 }
 
-.footer_part .list_wrapper ul li:hover {
+.footer_part .list_wrapper ul a:hover {
   color: #b1aff6;
 }
 
@@ -291,12 +294,12 @@ footer {
   align-items: center;
 }
 
-.footer_part span{
+.footer_part span {
   font-weight: bolder;
   font-size: 18px;
 }
 
-.footer_part p{
+.footer_part p {
   padding-bottom: 10px;
 }
 
