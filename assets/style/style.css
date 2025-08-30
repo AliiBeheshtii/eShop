@@ -218,8 +218,8 @@ a {
 
 /* Contact */
 
-.about_us{
-  padding: 5% 0;
+.about_us {
+  padding: 10% 0 15% 0;
 }
 
 .about_wrapper {
@@ -229,17 +229,17 @@ a {
   gap: 20px;
 }
 
-.about_part{
+.about_part {
   flex: 1 0 calc(73% / 4);
   text-align: center;
   padding: 50px;
 }
 
-.body_wrapper h5{
+.body_wrapper h5 {
   font-size: 15px;
 }
 
-.body_wrapper p{
+.body_wrapper p {
   color: #4a4a4a;
 }
 
@@ -249,50 +249,62 @@ a {
 }
 
 /* Footer */
-footer{
+footer {
   background-color: #1a2980;
   color: #fff;
   padding: 20px 0;
 }
 
-.footer_wrapper{
+.footer_wrapper {
   display: flex;
   flex-direction: row-reverse;
   padding: 10px;
 }
 
-.footer_part{
+.footer_part {
   flex: 1 0 calc(100% / 4);
 }
 
-.footer_part .list_wrapper ul li{
+.footer_part .list_wrapper ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer_part .list_wrapper ul li {
   list-style: none;
-  padding: 2px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.footer_part .list_wrapper ul li:hover{
+.footer_part .list_wrapper ul li:hover {
   color: #b1aff6;
 }
 
-
-.footer_part h3{
+.footer_part h3 {
   border-bottom: 3px solid #3b38a0;
   padding-bottom: 10px;
-
 }
 
-.footer_part:last-child{
+.footer_part:last-child {
   display: flex;
   align-items: center;
 }
 
-.footer_logo img{
+.footer_part span{
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.footer_part p{
+  padding-bottom: 10px;
+}
+
+.footer_logo img {
   width: 100px;
 }
 
-.under_footer{
+.under_footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -300,7 +312,7 @@ footer{
   padding: 15px;
 }
 
-.under_footer img{
+.under_footer img {
   width: 25px;
   cursor: pointer;
 }
