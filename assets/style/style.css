@@ -81,6 +81,18 @@ a {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.header_btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamber_btn {
+  display: none;
+  border: none;
+  background-color: transparent;
+}
+
 /* Intro */
 .intro {
   background: #1a2a80;
@@ -105,12 +117,12 @@ a {
   justify-content: center;
 }
 
-.intro_part h1 {
+.intro_left h1 {
   color: #fff;
   font-size: 50px;
 }
 
-.intro_part .etc {
+.intro_left .etc {
   background-color: transparent;
   color: #fff;
   border: 2px solid #fff;
@@ -121,11 +133,11 @@ a {
   transition: 0.3s;
 }
 
-.intro_part .etc:hover {
+.intro_left .etc:hover {
   transform: scale(1.1);
 }
 
-.intro_part img {
+.intro_right img {
   width: 100%;
   height: auto;
 }
