@@ -30,6 +30,11 @@
   .footer_logo img {
     width: 65px;
   }
+
+  /* Single product */
+  .single_product_wrapper {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
@@ -95,5 +100,13 @@
 
   .footer_logo img {
     width: 60px;
+  }
+
+  /* Comments */
+  .comment {
+    flex-direction: column;
+  }
+  .comment_part_r p {
+    font-size: 14px;
   }
 }
