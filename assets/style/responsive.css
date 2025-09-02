@@ -35,6 +35,11 @@
   .single_product_wrapper {
     flex-direction: column;
   }
+  
+  /* Contact us */
+  .info_wrapper{
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 768px) {
@@ -106,7 +111,13 @@
   .comment {
     flex-direction: column;
   }
+
   .comment_part_r p {
     font-size: 14px;
   }
+
+  /* Contact us */
+  .contact_part{
+    flex: 1 0 auto !important;
+  }    
 }
