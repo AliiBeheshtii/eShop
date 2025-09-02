@@ -4,9 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/style/style.css" />
+    <link rel="stylesheet" href="../assets/style/responsive.css" />
+    <link rel="stylesheet" href="../assets/style/single.css" />
     <title>Document</title>
   </head>
   <body>
+    <!-- Hamber menu -->
+    <div id="hamber_body">
+      <nav>
+        <ul class="hamber_nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <!-- Header -->
     <header>
       <div class="container">
@@ -19,7 +33,12 @@
               <li><a href="#">Categories</a></li>
               <li><a href="#">Contact us</a></li>
             </ul>
-            <button class="account_btn">Login | Sign up</button>
+            <div class="header_btns">
+              <button class="account_btn">Login | Sign up</button>
+              <button id="hamber_btn">
+                <img src="../assets/images/icons/menus.png" alt="hamber_menu" />
+              </button>
+            </div>
           </div>
         </nav>
       </div>
@@ -288,5 +307,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="../js/script.js"></script>
   </body>
 </html>
