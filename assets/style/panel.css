@@ -25,6 +25,7 @@ header {
 .user_name {
   display: flex;
   align-items: center;
+  padding-left: 16%;
 }
 
 .user_name span {
@@ -41,9 +42,9 @@ header {
 
 .side_bar {
   position: fixed;
-  top: 72px;
+  top: 0;
   left: 0;
-  height: calc(100% - 72px);
+  height: 100%;
   overflow-y: auto;
   width: 300px;
   background-color: #3348be;
