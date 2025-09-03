@@ -25,7 +25,7 @@ header {
 .user_name {
   display: flex;
   align-items: center;
-  padding-left: 16%;
+  padding-left: 350px;
 }
 
 .user_name span {
@@ -44,15 +44,19 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  width: 300px;
   height: 100%;
   overflow-y: auto;
-  width: 300px;
   background-color: #3348be;
 
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+}
+
+.top_part {
+  text-align: center;
 }
 
 .top_part img {
@@ -94,12 +98,12 @@ header {
 }
 
 .panel_body {
-  padding-top: 30px;
-  padding-left: 300px;
+  padding: 30px 50px 30px 350px;
 }
 
 .panel_body hr {
   margin: 50px 0;
+  border: 1px solid #eee;
 }
 
 .panel_body label {
@@ -112,24 +116,78 @@ header {
 
 .title_input input,
 .introduction_text input {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   border: 1px solid #bebebe;
   outline: none;
+  border-radius: 5px;
 }
 
 .main_color input,
-.complementary_color input,
+.second_color input,
 .title_input input,
 .upload_file input,
 .introduction_text input {
   margin-bottom: 40px;
 }
 
-.submit input{
+.submit input {
   background-color: green;
   color: #fff;
   border: 1px solid green;
   padding: 10px 20px;
   border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.submit input:hover {
+  background-color: rgb(12, 159, 12);
+  border: 1px solid rgb(12, 159, 12);
+  transform: translateY(-3px);
+}
+
+/* Responsive sidebar */
+.responsive_side {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #3348be;
+  padding: 50px 5px;
+}
+
+.responsive_side .profile_img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile_img img {
+  width: 50%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.responsive_side .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive_side .icons img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 20px;
+  padding: 5px 100%;
+}
+
+.responsive_side .icons img:hover {
+  background-color: #485cd1;
 }

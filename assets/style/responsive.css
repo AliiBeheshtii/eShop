@@ -35,9 +35,9 @@
   .single_product_wrapper {
     flex-direction: column;
   }
-  
+
   /* Contact us */
-  .info_wrapper{
+  .info_wrapper {
     flex-direction: column-reverse;
   }
 }
@@ -66,6 +66,32 @@
   .intro_left .etc {
     padding: 10px 30px;
     font-size: 16px;
+  }
+
+  /* Panel */
+
+  .side_bar {
+    display: none;
+  }
+
+  .responsive_side {
+    display: block;
+  }
+
+  .panel_body {
+    padding-left: 100px;
+  }
+
+  .user_name {
+    padding-left: 63px;
+  }
+
+  .panel_body h1 {
+    font-size: 24px;
+  }
+
+  .panel_body label {
+    font-size: 15px;
   }
 }
 
@@ -117,7 +143,7 @@
   }
 
   /* Contact us */
-  .contact_part{
+  .contact_part {
     flex: 1 0 auto !important;
-  }    
+  }
 }
