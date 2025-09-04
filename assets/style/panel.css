@@ -178,20 +178,19 @@ header {
   border-radius: 50%;
 }
 
-.responsive_side .icons {
+.responsive_side .icons a {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.responsive_side .icons img {
-  width: 20px;
-  height: 20px;
+.responsive_side .icons a img {
+  width: 22px;
+  height: 22px;
   margin-bottom: 20px;
   padding: 5px 100%;
 }
 
-.responsive_side .icons img:hover {
+.responsive_side .icons a img:hover {
   background-color: #485cd1;
 }
